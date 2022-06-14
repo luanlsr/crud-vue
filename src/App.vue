@@ -100,6 +100,7 @@ export default {
 					tipo: 'warning'
 				})
 			})
+			this.obterUsuarios()
 			.catch(() => {
 				this.mensagens.push({
 					texto: 'Problema para excluir',
