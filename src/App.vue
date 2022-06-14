@@ -100,7 +100,9 @@ export default {
 					tipo: 'warning'
 				})
 			})
-			this.obterUsuarios()
+			setTimeout(() => {
+				this.obterUsuarios()
+			}, 1000)
 			.catch(() => {
 				this.mensagens.push({
 					texto: 'Problema para excluir',
