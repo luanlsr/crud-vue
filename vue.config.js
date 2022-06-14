@@ -1,4 +1,4 @@
 module.exports = {
     baseUrl: process.env.NODE_ENV === 'production' ?
-        '/crud/' : '/'
+        '/crud-vue/' : '/'
 }
